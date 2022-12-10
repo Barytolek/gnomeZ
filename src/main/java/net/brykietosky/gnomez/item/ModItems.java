@@ -16,5 +16,6 @@ public class ModItems {
     {
         ITEMS.register(eventBus);
     }
-    public static final RegistryObject<Item> Gnome_Summoner = ITEMS.register("gnome_summoner",() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)));
+    public static final RegistryObject<Item> gnome_summoner = ITEMS.register("gnome_summoner",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)));
 }
